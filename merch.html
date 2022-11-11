@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Diwan BPZ</title>
+        <link rel="shortcut icon" href="./assets/images/Logo Diwan.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center" id="menu-custom">
+                            <li class="nav-item">
+                                <a class="nav-link nav-mod" aria-current="page" href="./merch.html">Merch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-mod" href="./mi-musica.html">Mi Musica</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link inicio" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-mod" href="./sobre-mi.html">Sobre Mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-mod" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <img class="logo" src="./assets/images/Logo Diwan.png" alt="Logo Diwan">
+              
+        </header>
+        <main class="merch-general">
+
+            <aside class="side-bar">
+        
+                <h2>Filtros</h2>
+                
+                <h3>Categoria</h3>
+                <ul>
+                    <input type="checkbox" name="remeras"> Remeras <br>
+                    <input type="checkbox" name="buzos"> Buzos <br>
+                    <input type="checkbox" name="zapatillas"> Zapatillas <br>
+                </ul>
+
+                <h3>Talle</h3>
+                <ul>
+                    <input type="checkbox" name="s"> Small <br>
+                    <input type="checkbox" name="m"> Medium <br>
+                    <input type="checkbox" name="l"> Large <br>
+                </ul>
+
+                <h3>Color</h3>
+                <ul>
+                    <input type="checkbox" name="blanco"> Blanco <br>
+                    <input type="checkbox" name="negro"> Negro <br>
+                    <input type="checkbox" name="rojo"> Rojo <br>
+                </ul>
+
+                <h3>Precio</h3>
+                <ul class="sidebar--price">
+                    <div>
+                        <input type="radio" name="price" id="1000" value="1000">
+                        <label for="1000"><$1000</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="price" id="2000" value="1000">
+                        <label for="2000"><$2000</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="price" id="3000" value="3000">
+                        <label for="3000"><$3000</label>
+                    </div>
+                </ul>
+
+            </aside>
+
+           <section class="products container-fluid">
+
+                <div class="row">
+
+                    <div class="col-xl-4 col-md-6 col-s-12">
+                        <article class="card-product">
+                            <img src="./assets/images/remera.jpg" alt="foto de remera">
+                            <h3>Remera</h3>
+                            <p>$1200</p>
+                            <p>Descripcion del producto publicado en este article</p>
+                            <a href="#">Comprar</a>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-s-12">
+                        <article class="card-product">
+                            <img src="./assets/images/buzo.jpg" alt="foto de remera" id="buzo">
+                            <h3>Buzo</h3>
+                            <p>$2700</p>
+                            <p>Descripcion del producto publicado en este article</p>
+                            <a href="#">Comprar</a>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-s-12">
+                        <article class="card-product">
+                            <img src="./assets/images/gorra.jpg" alt="foto de remera">
+                            <h3>Gorra</h3>
+                            <p>$700</p>
+                            <p>Descripcion del producto publicado en este article</p>
+                            <a href="#">Comprar</a>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-s-12">
+                        <article class="card-product">
+                            <img src="./assets/images/zapatilla 1.jpg" alt="foto de remera">
+                            <h3>Zapatillas rojas</h3>
+                            <p>$3000</p>
+                            <p>Descripcion del producto publicado en este article</p>
+                            <a href="#">Comprar</a>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-s-12">
+                        <article class="card-product">
+                            <img src="./assets/images/gorros.jpg" alt="foto de remera">
+                            <h3>Gorro</h3>
+                            <p>$400</p>
+                            <p>Descripcion del producto publicado en este article</p>
+                            <a href="#">Comprar</a>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-s-12">
+                        <article class="card-product">
+                            <img src="./assets/images/zapatilla 2.jpg" alt="foto de remera">
+                            <h3>Zapatillas verdes</h3>
+                            <p>$4500</p>
+                            <p>Descripcion del producto publicado en este article</p>
+                            <a href="#">Comprar</a>
+                        </article>
+                    </div>
+                </div>
+           </section>
+
+        </main>
+        <footer>
+            <hr>
+            <div class="footer--socialnet">
+                <p class="footer--description">2022 © Diwan | Todos los derechos reservados</p>
+                <div class="socialnet">
+                    <a href="https://www.youtube.com/channel/UCXrTKCuQyGW_ppwEAqyrI7g" target="_blank"><img src="./assets/images/Youtube Desktop.png" alt="Redes Youtube"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100085430850487" target="_blank"><img src="./assets/images/Facebook Desktop.png" alt="Redes Facebook"></a>
+                    <a href="https://www.instagram.com/diwan_bpz/" target="_blank"><img src="./assets/images/Instagram Desktop.png" alt="Redes Instagram"></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+    </body>
+</html>
