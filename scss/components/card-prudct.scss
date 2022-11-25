@@ -1,0 +1,35 @@
+.card-product {
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40));
+    border-radius: 16px;
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+        background-color: black;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        transition: all 0.4s ease;
+        &:hover{
+            scale: 1.5;
+            color: $typography-color2 !important;
+            background-color: $primary-color;
+            transition: all 0.4s ease;
+        }
+    }
+    h3 {
+        font-size: 24px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,44 @@
+footer {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+hr {
+    margin-bottom: 10px;
+    width: 95%;
+    height: 2px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.footer--description {
+    display: flex;
+}
+
+.footer--socialnet {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    img {
+        height: 50px;
+    }
+}
+
+.socialnet {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+//MEDIA QUERIES
+
+@media (max-width: 990px) {
+    .footer--socialnet{ 
+        img {
+        height: 30px;
+        padding-left: 10px;
+        }
+    }
+}

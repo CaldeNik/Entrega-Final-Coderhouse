@@ -1,0 +1,16 @@
+@mixin sendButton(){
+    width: 50%;
+    color: $typography-color2;
+    font-size: 25px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border-style: none;
+    background-color: $primary-color;
+    text-align: center;
+    transition: all 0.4s ease-in;
+    &:hover{
+        color: $primary-color;
+        background-color: $typography-color2;
+        transition: all 0.4s ease-in;
+    }
+}

@@ -1,0 +1,56 @@
+.merch-general {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 50px;
+    img {
+        height: 300px;
+        border-radius: 8px;
+    }
+}
+
+.side-bar {
+    margin-right: 50px;
+    padding: 20px;
+    ul {
+        width: 100%;
+    }
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.sidebar--price {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+//MEDIA QUERIES
+
+@media (max-width: 990px) {
+   .merch-general{
+    section{
+        max-width: 100%;
+        div{
+            max-width: 100%;
+            article{
+                max-width: 100%;
+                margin-left: -10px;
+            }
+        }
+    }
+    aside {
+        display: none;
+    }
+   }
+   .card-product{
+    width: 300px;
+   }
+   #buzo{
+    width: 100%;
+   }
+}

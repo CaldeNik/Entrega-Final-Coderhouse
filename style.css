@@ -1,0 +1,91 @@
+/* MEDIA QUERYS */
+
+@media (max-width: 990px) {
+    .inicio-container{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 10px;
+    }
+    .inicio-container img {
+        max-width: 100%;
+        height: auto;
+    }
+    .description {
+        width: 100%;
+    }
+    .smc{
+        margin: 10px;
+    }
+    .smc, .smc-p1{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .smc-p2{
+        flex-direction: column-reverse;
+    }
+    .smc img {
+        max-width: 100%;
+    }
+    .smc-p1--text, .smc-p2--text{
+        width: 100%;
+        margin-top: 10px;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        width: 100px;
+        margin: 10px;
+    }
+    .container-fluid {
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .container-fluid span {
+        width: 50px;
+        height: 50px;
+    }
+    .footer--socialnet img {
+        height: 30px;
+        padding-left: 10px;
+    }
+    .cc{
+        flex-direction: column;
+    }
+    .cc--form-container{
+        max-width: 100%;
+    }
+    .cc input, select, textarea{
+        max-width: 100%;
+    }
+    .cc img{
+        display: none;
+    }
+    .mmc audio{
+        display: none;
+    }
+    .mmc, .song-comp, .song-comp--general {
+        flex-direction: column;
+    }
+    .song-comp--general{
+        width: 100%;
+    }
+    .merch-general aside{
+        display: none;
+    }
+    .card-product{
+       width: 300px;
+    }
+    #buzo{
+        width: 100%;
+    }
+    .carousel{
+        width: 100%;
+    }
+}
+

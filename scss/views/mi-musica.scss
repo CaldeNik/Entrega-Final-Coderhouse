@@ -1,0 +1,81 @@
+.mmc{
+    h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+    audio {
+        margin: auto;
+    }
+    img {
+        margin: auto;
+    }
+}
+
+.mmc--songs {
+    width: 100%;
+}
+
+.song-comp {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.song-comp--general {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.song-comp--cont {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3 {
+        margin: 0px;
+        font-size: 30px;
+    }
+    h4 {
+        margin: 0px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    a{
+        margin: 0px;
+        background-color: rgb(235, 37, 37);
+        border-radius: 4px;
+        text-align: center;
+        height: 40px;
+        font-size: 20px;
+        &:hover{
+            scale: 1.2;
+            transition: all 0.4s ease;
+        }
+    }
+}
+
+#hancock {
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40));
+    border-radius: 8px;
+}
+
+//MEDIA QUERIES
+
+@media (max-width: 990px) {
+    .mmc{
+        audio{
+            display: none;
+        }
+    }
+    .mmc, .song-comp, .song-comp--general {
+        flex-direction: column;
+    }
+    .song-comp--general{
+        width: 100%;
+    }
+}

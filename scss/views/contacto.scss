@@ -1,0 +1,42 @@
+.cc {
+    display: flex;
+    margin: 20px 50px;
+    justify-content: space-evenly;
+    img {
+        width: 500px;
+        margin-left: 20px;
+        border-radius: 16px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+}
+
+.cc--form-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    background-color: rgba(128, 128, 128, 0.50);
+    align-items: center;
+    border-radius: 16px;
+    padding: 20px;
+    width: 500px;
+}
+
+//MEDIA QUERIES
+
+@media (max-width: 990px) {
+    .cc{
+        flex-direction: column;
+        input, select, textarea{
+            max-width: 100%;
+        }
+        img{
+            display: none;
+        }
+    }
+    .cc--form-container{
+        max-width: 100%;
+    }
+}
