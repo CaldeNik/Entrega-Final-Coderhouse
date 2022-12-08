@@ -3,7 +3,9 @@
     justify-content: space-around;
     margin: 20px 50px;
     img {
+        width: 300px;
         height: 300px;
+        object-fit: cover;
         border-radius: 8px;
     }
 }
@@ -49,6 +51,9 @@
    }
    .card-product{
     width: 300px;
+    img {
+        max-width: 100%;
+    }
    }
    #buzo{
     width: 100%;
